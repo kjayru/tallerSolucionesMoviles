@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"  android:layout_height="20dp" android:layout_width="match_parent">
+    <group android:checkableBehavior= "single" >
+        <item
+            android:id= "@+id/tecnologia"
+            android:icon= "@drawable/ic_launcher_background"
+            android:title= "Tecnología" />
+        <item
+            android:id= "@+id/deportes"
+            android:icon= "@drawable/ic_launcher_background"
+            android:title= "Deportes" />
+        <item
+            android:id= "@+id/juegos"
+            android:icon= "@drawable/ic_launcher_background"
+            android:title= "Juegos" />
+        <item
+            android:id= "@+id/electro"
+            android:icon= "@drawable/ic_launcher_background"
+            android:title= "Electro" />
+    </group>
+
+</menu>
+
